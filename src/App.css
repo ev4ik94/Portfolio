@@ -1,0 +1,223 @@
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+
+a{
+	text-decoration: none!important;
+	transition: all .5s ease;
+}
+
+
+a:hover{
+	cursor:pointer;
+	text-decoration: none!important;
+}
+
+
+li{
+	list-style: none;
+}
+
+.pt-l-0{padding-left:0!important;}
+.pt-r-0{padding-right:0!important;}
+.pt-0{padding-top:0!important;}
+.pt--5{padding-top:5px;}
+.pt-10{padding-top:10px;}
+.pt-20{padding-top:20px;}
+.pt-30{padding-top:30px;}
+.pt-40{padding-top:40px;}
+.pt-50{padding-top:50px;}
+.pt-60{padding-top:60px;}
+.pt-70{padding-top:70px;}
+.pt-80{padding-top:80px;}
+.pt-90{padding-top:90px;}
+.pt-100{padding-top:100px;}
+
+
+.pb-0{padding-bottom:0!important;}
+.pb--5{padding-bottom: 5px!important}
+.pb-10{padding-bottom:10px;}
+.pb-20{padding-bottom:20px;}
+.pb-30{padding-bottom:30px;}
+.pb-40{padding-bottom:40px;}
+.pb-50{padding-bottom:50px;}
+.pb-60{padding-bottom:60px;}
+.pb-70{padding-bottom:70px;}
+.pb-80{padding-bottom:80px;}
+.pb-90{padding-bottom:90px;}
+.pb-100{padding-bottom:100px;}
+
+.mt-0{margin-top:0px;}
+.mt-10{margin-top:10px;}
+.mt-20{margin-top:20px;}
+.mt-30{margin-top:30px;}
+.mt-40{margin-top:40px;}
+.mt-50{margin-top:50px;}
+.mt-60{margin-top:60px;}
+.mt-70{margin-top:70px;}
+.mt-80{margin-top:80px;}
+.mt-90{margin-top:90px;}
+.mt-100{margin-top:100px;}
+.m-aut{margin:0 auto!important;}
+
+.mb-0{margin-bottom:0px!important;}
+.mb--5{margin-bottom:5px;}
+.mb-10{margin-bottom:10px;}
+.mb-15{margin-bottom:15px;}
+.mb-20{margin-bottom:20px;}
+.mb-30{margin-bottom:30px;}
+.mb-40{margin-bottom:40px;}
+.mb-50{margin-bottom:50px;}
+.mb-60{margin-bottom:60px;}
+.mb-70{margin-bottom:70px;}
+.mb-80{margin-bottom:80px;}
+.mb-90{margin-bottom:90px;}
+.mb-100{margin-bottom:100px;}
+
+
+img{
+	width:100%;
+	height:100%;
+}
+
+.border-rgt-none{border-right:none!important;}
+.border-btm-none{border-bottom:none!important;}
+.border-btm-solid{border-bottom:1px solid rgba(33, 38, 64, 1)!important;}
+.border-tp-solid{border-top:1px solid rgba(33, 38, 64, 1)!important;}
+
+.img-cover{object-fit: cover;}
+
+.img-contain{object-fit: contain;}
+
+.color-red-text{color:rgba(227, 30, 36, 1);}
+.color-blue-text{color:rgba(33, 38, 64, 1);}
+.color-white-text{color:rgba(254, 254, 254, 1)!important;}
+
+.color-grey-text{color:#9E9E9E;}
+
+.color-dark-text{color:#303030;}
+
+.color-red-bg{background-color:rgba(227, 30, 36, 1);}
+.color-blue-bg{background-color:rgba(33, 38, 64, 1);}
+.color-white-bg{background-color:rgba(254, 254, 254, 1);}
+.color-grey-bg{background-color:rgb(224, 222, 222,1);}
+
+.color-red-fill{fill: rgba(227, 30, 36, 1);}
+.color-blue-fill{fill: rgba(33, 38, 64, 1);}
+.color-white-fill{fill: rgba(254, 254, 254, 1);}
+
+.main-wrap{
+	padding: 50px 5px;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.visible-hide{
+    visibility: hidden;
+}
+
+.text-site-sm{
+	font-size:1rem;
+}
+
+.btn-arrow{
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 80% 50%, 75% 100%, 0% 100%);
+}
+
+.wrap-shad{
+	background-color: rgba(0,0,0,.8);
+	right:0;
+	transition: all .05s ease;
+	width: 100%;
+	height:100%;
+	display: block;
+	top: 0;
+}
+
+.wrap-shad[data-show='show']{
+	
+	transform: translate(0px,0);
+	visibility: visible;
+	z-index: 90;
+}
+
+.wrap-shad[data-show='hide']{
+	transform: translate(1000px,0);
+	visibility: hidden;
+	
+}
+
+.massege-inf{
+	font-size: .85rem;
+	border-radius: 5px;
+	padding: 10px;
+	bottom:0;
+}
+
+button{
+	border:none;
+	outline: none!important;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+/*------ Contact Us------*/
+
+.icon-contacts svg{
+	width: 100%;
+}
+
+
+@media (max-width: 992px){
+	.massege-inf{
+		font-size: .8rem;
+	}
+}
+
+
+
+@media (max-width: 680px){
+	.text-site-sm{
+		font-size:.9rem;
+	}
+
+	h3{
+		font-size:1.4rem;
+	}
+
+	h2{
+		font-size:1.7rem;
+	}
+}
+
+@media (max-width: 400px){
+	.text-site-sm{
+		font-size:.85rem;
+	}
+
+	h3{
+		font-size:1.3rem;
+	}
+
+	h2{
+		font-size:1.6rem;
+	}
+}
+
+
+@media (max-width: 350px){
+	.text-site-sm{
+		font-size:.8rem;
+	}
+
+	h3{
+		font-size:1.1rem;
+	}
+
+	h2{
+		font-size:1.4rem;
+	}
+}

@@ -1,0 +1,128 @@
+.wrap-statistic{
+	background: rgba(33,38,64,1);
+background: -moz-linear-gradient(left, rgba(33,38,64,1) 0%, rgba(113,129,199,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,38,64,1)), color-stop(100%, rgba(113,129,199,1)));
+background: -webkit-linear-gradient(left, rgba(33,38,64,1) 0%, rgba(113,129,199,1) 100%);
+background: -o-linear-gradient(left, rgba(33,38,64,1) 0%, rgba(113,129,199,1) 100%);
+background: -ms-linear-gradient(left, rgba(33,38,64,1) 0%, rgba(113,129,199,1) 100%);
+background: linear-gradient(to right, rgba(33,38,64,1) 0%, rgba(113,129,199,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212640', endColorstr='#7181c7', GradientType=1 );
+}
+
+
+
+#statistics .btn-statistic{
+	width: 250px;
+    height: 40px;
+    padding: 8px 5px;
+}
+
+#chart .apexcharts-legend-marker{
+	display: none;
+}
+#chart .apexcharts-legend-text{
+	white-space: nowrap;
+	font-size: .8rem;
+	margin:0;
+}
+#chart2 .apexcharts-legend-marker{
+	border-radius: 50%!important;
+}
+
+
+#chart2 .apexcharts-legend-series{
+	margin:5px!important;
+}
+
+#chart .apexcharts-legend-series{
+	margin-left: 10px!important;
+}
+
+.apexcharts-text{
+	fill:#fefefe!important;
+	font-weight: bold!important;
+}
+
+.apexcharts-datalabel-value{
+	font-size:1.2rem;
+}
+
+.apexcharts-gridline{
+	stroke-dasharray: 3;
+	stroke-width:1;
+	stroke:#fefefe;
+}
+
+@media (max-width: 992px){
+	.contain-description .text-site-sm{
+		font-size: .9rem;
+	}
+	.contain-description h2{
+		font-size:1.3rem;
+	}
+
+	.contain-description, 
+	.round-diagramm, 
+	.line-diagramm{
+		max-width:100%;
+	}
+
+	#chart .apexcharts-legend{
+		left: 95px!important;
+    	right: auto!important;
+	}
+
+
+}
+
+@media (max-width: 550px){
+	#chart .apexcharts-legend{
+		left: 65px!important;
+    	right: auto!important;
+	}
+
+	#chart .apexcharts-text{
+		font-size: .9rem;
+	}
+}
+
+@media (max-width: 450px){
+	#chart .apexcharts-legend{
+		left: 0px!important;
+	}
+
+	#chart .apexcharts-text{
+		font-size: .75rem;
+	}
+
+
+
+
+}
+
+@media (max-width: 380px){
+	
+	#chart .apexcharts-legend-series{
+		margin:0!important;
+	}
+
+	
+
+	.round-diagramm{
+		padding-top:40px;
+		margin-bottom:10px;
+	}
+
+
+}
+
+@media (max-width: 350px){
+	
+	#chart .apexcharts-legend-series{
+		display: none;
+	}
+
+	
+
+}
+

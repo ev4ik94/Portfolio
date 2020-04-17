@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Icons/Plastic/Checked</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Plastic/Checked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M25,0 C38.7847695,0 50,11.2152305 50,25 C50,38.7847695 38.7847695,50 25,50 C11.2152305,50 0,38.7847695 0,25 C0,11.2152305 11.2152305,0 25,0 Z M25,3.12503402 C12.9379638,3.12503402 3.12503402,12.9380545 3.12503402,25.0000907 C3.12503402,37.0621269 12.9379638,46.8750567 25,46.8750567 C37.0620362,46.8750567 46.8750567,37.0620362 46.8750567,25 C46.8750567,12.9379638 37.0620362,3.12503402 25,3.12503402 Z M34.7982929,17 L37,19.2887066 L21.8859323,35 L13,25.762944 L15.2017071,23.4742374 L21.8859323,30.4225868 L34.7982929,17 Z" id="Combined-Shape" fill="#00C851"></path>
+    </g>
+</svg>

@@ -1,0 +1,287 @@
+[
+	{
+		"id":"7",
+		"type":"Кредитные карты",
+     	"title":"Кобрединг карта", 
+     	"desc":"Эта кредитная карта для всех тех кто любит технику. Получайте кэшбек и выгодные проценты бесплатно", 
+     	"text":"",
+     	"images":{
+     		"banner": null,
+     		"large": "/image/picture/car.png"
+     	},
+     	"files":{
+     		"name": "''",
+     		"url": "''"
+     	},
+      "products": false,
+      "published_at":""
+	},
+
+	{
+		"id":"3", 
+		"type":"Потребительское", 
+     	"title":"Автокредит", 
+     	"desc":"Расчитайте и оформите заявку за 5 минут. Мы сделаем лучшие условия автокредитования для вас", 
+     	"text":"",
+     	"images":{
+     		"banner": "/image/banners/Автокредит.jpg",
+     		"large": "/image/picture/car.png"
+     	},
+      "products": true,
+      
+     	"calculators":[
+     		{
+     			"id": 2,
+     			"title": "",
+      			"type": "credit",
+      			"percent": 33,
+      			"term": 36,
+      			"currency": "UZS",
+      			"amount": 100000000,
+      			"prepayment": 25,
+      			"replenishment": false
+
+     		},
+     		{
+     			"id": 3,
+     			"title": "",
+      			"type": "credit",
+      			"percent": 30,
+      			"term": 35,
+      			"currency": "UZS",
+      			"amount": 100000000,
+      			"prepayment": 50,
+      			"replenishment": false
+
+     		}
+     	], 
+     	"files":{
+     		"name": "",
+     		"url": ""
+     	}, 
+     	"published_at":""
+	},
+
+	{
+		"id":"4", 
+		"type":"Микрозаймы", 
+     	"title":"Микрозайм", 
+     	"desc":"Оплачивайте покупки или услуги, когда средств не достаточно. С помощью микрозайма", 
+     	"text":"",
+     	"images":{
+     		"banner": "/image/banners/Автокредит.jpg",
+     		"large": "/image/picture/car.png"
+     	},
+      "products": false,
+      
+     	"calculators":[
+     		{
+     			"id": 2,
+     			"title": "",
+      			"type": "credit",
+      			"percent": 30,
+      			"term": 12,
+      			"currency": "UZS",
+      			"amount": 10000000,
+      			"prepayment": 0,
+      			"replenishment": false
+
+     		},
+        {
+          "id": 3,
+          "title": "",
+            "type": "credit",
+            "percent": 32,
+            "term": 24,
+            "currency": "UZS",
+            "amount": 10000000,
+            "prepayment": 0,
+            "replenishment": false
+
+        }
+     	], 
+     	"files":{
+     		"name": "",
+     		"url": ""
+     	}, 
+     	"published_at":""
+	},
+
+
+  {
+    "id":"6", 
+    "type":"Ипотека", 
+      "title":"Ипотека", 
+      "desc":"Оплачивайте покупки или услуги, когда средств не достаточно. С помощью микрозайма", 
+      "text":"",
+      "images":{
+        "banner": "/image/banners/Автокредит.jpg",
+        "large": "/image/picture/car.png"
+      },
+      "products": false,
+      
+      "calculators":[
+        {
+        "group": [
+            {
+              "id":2,
+              "title": "Новостройка",
+              "calculators":[
+                  {
+                    "id": 2,
+                    "title": "",
+                    "type": "credit",
+                    "percent": 26,
+                    "term": 48,
+                    "currency": "UZS",
+                    "amount": 100000000,
+                    "prepayment": 25,
+                    "replenishment": false
+
+                  },
+
+                  {
+                    "id": 3,
+                    "title": "",
+                    "type": "credit",
+                    "percent": 27,
+                    "term": 60,
+                    "currency": "UZS",
+                    "amount": 100000000,
+                    "prepayment": 25,
+                    "replenishment": false
+
+                  },
+        {
+                    "id": 4,
+                    "title": "",
+                    "type": "credit",
+                    "percent": 28,
+                    "term": 72,
+                    "currency": "UZS",
+                    "amount": 100000000,
+                    "prepayment": 25,
+                    "replenishment": false
+
+        }
+      ]
+          },
+            {
+              "id":5,
+              "title": "Готовое жилье",
+              "calculators": [
+                  {
+                    "id": 5,
+                    "title": "",
+                    "type": "credit",
+                    "percent": 28,
+                    "term": 84,
+                    "currency": "UZS",
+                    "amount": 100000000,
+                    "prepayment": 35,
+                    "replenishment": false
+
+                  }
+              ]
+            }
+        ]
+        }
+        
+      ], 
+      "files":{
+        "name": "",
+        "url": ""
+      }, 
+      "published_at":""
+  },
+
+  {
+    "id":"12", 
+    "type":"", 
+      "title":"", 
+      "desc":"", 
+      "text":"",
+      "images":{
+        "banner": "",
+        "large": ""
+      },
+      "products": false,
+      
+      "calculators":[
+        {
+          "id": 2,
+          "title": "",
+            "type": "deposite",
+            "percent": 30,
+            "term": 12,
+            "currency": "UZS",
+            "amount": 10000000,
+            "prepayment": 0,
+            "replenishment": false
+
+        }
+      ], 
+      "files":{
+        "name": "",
+        "url": ""
+      }, 
+      "published_at":""
+  },
+
+  {
+    "id":"5", 
+    "type":"", 
+      "title":"", 
+      "desc":"", 
+      "text":"",
+      "images":{
+        "banner": "",
+        "large": ""
+      },
+      "products": false,
+      
+      "calculators":[
+        {
+          "id": 2,
+          "title": "",
+            "type": "credit",
+            "percent": 26,
+            "term": 12,
+            "currency": "UZS",
+            "amount": 1000000,
+            "prepayment": 0,
+            "replenishment": false
+
+        },
+         {
+          "id": 3,
+          "title": "",
+            "type": "credit",
+            "percent": 27,
+            "term": 24,
+            "currency": "UZS",
+            "amount": 1000000,
+            "prepayment": 0,
+            "replenishment": false
+
+        },
+        {
+          "id": 4,
+          "title": "",
+            "type": "credit",
+            "percent": 25,
+            "term": 36,
+            "currency": "UZS",
+            "amount": 1000000,
+            "prepayment": 25,
+            "replenishment": false
+
+        }
+      ], 
+      "files":{
+        "name": "",
+        "url": ""
+      }, 
+      "published_at":""
+  }
+]

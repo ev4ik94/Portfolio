@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer/Blue" transform="translate(-1236.000000, -107.000000)" fill="#FEFEFE">
+            <g id="Social" transform="translate(1116.000000, 107.000000)">
+                <g id="facebook" transform="translate(120.000000, 0.000000)">
+                    <path d="M40,20.1217039 C40,9.00608519 31.0483871,0 20,0 C8.9516129,0 0,9.00608519 0,20.1217039 C0,30.1647059 7.31370968,38.4892495 16.875,40 L16.875,25.9383367 L11.7943548,25.9383367 L11.7943548,20.1217039 L16.875,20.1217039 L16.875,15.6884381 C16.875,10.6458418 19.858871,7.86044625 24.4290323,7.86044625 C26.6177419,7.86044625 28.9064516,8.25314402 28.9064516,8.25314402 L28.9064516,13.2024341 L26.383871,13.2024341 C23.9,13.2024341 23.125,14.7537525 23.125,16.3448276 L23.125,20.1217039 L28.6717742,20.1217039 L27.7846774,25.9383367 L23.125,25.9383367 L23.125,40 C32.6862903,38.4892495 40,30.1647059 40,20.1217039 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

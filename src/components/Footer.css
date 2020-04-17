@@ -1,0 +1,370 @@
+
+#footer-container .contact-list-group li
+{
+    border: none;
+    padding: 5px;
+    cursor: default;
+    background-color: transparent;
+}
+
+
+
+#footer-container .dropdown a,
+#footer-container .desription-site-cookie p{
+	font-size:.8rem;
+}
+
+#footer-container .text-contsct-us p{
+    font-size:.8rem;
+    color: rgba(254, 254, 254, 1);
+}
+
+#footer-container .icon-contacts{
+	width:20px;
+}
+
+#footer-container .container-contact{
+	padding:10px 0px;
+	border-bottom:2px solid rgba(254, 254, 254, 1);
+}
+
+#footer-container .container-brand{
+	width: 50px;
+	height:40px;
+}
+
+#footer-container .social-networks svg{
+	width:40px;
+	height:40px;
+}
+
+#footer-container .navbar-brand{
+	padding-top:.5rem;
+}
+
+#footer-container .social-networks .nav-link,
+#footer-container .dropdown .nav-link{
+	padding-right:.5rem;
+	padding-left:.5rem;
+}
+
+
+
+#footer-container .dropdown{
+	max-width:150px;
+	padding: 10px 5px;
+	
+	}
+
+#footer-container .dropdown .main-link:after{
+	content:'';
+	width: 0;
+    height: 0;
+    border: none;
+    border-bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+
+#footer-container .dropdown-menu.show{
+	transform: none!important;
+	background-color: transparent!important;
+	position: static!important;
+	display: flex!important;
+	flex-direction: column!important;
+	border:none;
+}
+
+#footer-container .dropdown-menu{
+		padding: 3px 0px 0px 10px!important;
+	}
+
+#footer-container .container-categories-list{
+	min-height:200px;
+}
+
+#footer-container .desription-site-cookie{
+	padding:15px 0px;
+	border-bottom:1px solid #9E9E9E;
+}
+
+#footer-container .lft-side-date p,
+#footer-container .bottom-footer-protect a{
+	font-size:.9rem;
+}
+
+#footer-container .bottom-footer-protect{padding:10px 0px;}
+
+#footer-container .bottom-footer-protect a{padding:5px 3px;}
+
+#footer-container .bottom-footer-protect a:hover{
+	color:rgba(227, 30, 36, 1);
+}
+
+#footer-container .social-networks a:hover .social-icon-hov{
+	transition: all .4s ease;
+	fill: rgba(227, 30, 36, 1);
+}
+
+#footer-container .link-app-down{
+	width:130px;
+	height:40px;
+}
+
+#footer-container .container-image{
+	height: 450px;
+}
+
+#footer-container .picture-mobile{
+	z-index: 3;
+}
+
+#footer-container .picture-card{
+	top: 30px;
+    left: 20px;
+    transform: rotateZ(90deg);
+    width:300px;
+}
+
+#footer-container .animate-card{
+    animation-name: card-animate;
+    animation-duration: .8s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes card-animate{
+	0%{
+		transform: rotateZ(90deg);
+		
+	}
+	
+	100%{
+		transform: rotateZ(60deg);
+		left:-70px;
+	}
+}
+
+@media (max-width: 1130px){
+	@keyframes card-animate{
+		0%{
+			transform: rotateZ(90deg);
+		
+		}
+	
+		100%{
+			transform: rotateZ(60deg);
+			left:-90px;
+		}
+	}
+}
+
+
+
+@media (max-width: 992px){
+	
+
+	#footer-container .dropdown-m{
+		padding: 3px 10px;
+	}
+
+	#footer-container .second-link{
+		padding-left:10px;
+	}
+
+
+	#footer-container .dropdown-m .main-link:after{
+	content:'';
+	width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: rgba(254, 254, 254, 1);
+    border-bottom: 0;
+    position: absolute;
+    top: 40%;
+    right: -20px;
+    z-index: 4;
+	}
+
+	#footer-container .dropdown{
+	max-width:100%;
+	padding: 0px 0px;
+	
+	}
+
+	#footer-container .dropdown a
+	{
+	font-size:.9rem;
+	}
+
+	#footer-container .social-networks .nav-link,
+	#footer-container .dropdown .nav-link{
+	padding:.3rem .5rem;
+	}
+
+	#footer-container .lft-side-date p, 
+	#footer-container .bottom-footer-protect a{
+		font-size: .8rem;
+	}
+
+	#footer-container .container-logo-madetec{
+		width:30px;
+	}
+
+	#footer-container .picture-card{
+		width:250px;
+	}
+
+
+
+}
+
+@media (max-width: 768px){
+	#footer-container .image-app{
+		padding-top:30px;
+	}
+
+	#footer-container .picture-card{
+		width:300px;
+	}
+
+	#footer-container .container-image{
+		position: relative;
+	}
+	#footer-container .bottom-contain-items{
+		padding-left: 0;
+	}
+
+	#footer-container .container-logo-madetec{
+		width:30px;
+	}
+
+
+	@keyframes card-animate{
+	0%{
+		transform: rotateZ(90deg);
+		
+	}
+	
+	100%{
+		transform: rotateZ(60deg);
+		left:-6px;
+	}
+}
+
+
+}
+
+@media (max-width: 510px){
+	
+	#footer-container .picture-mobile{
+		width:250px;
+		margin: 0 20%;
+	}
+
+	#footer-container .picture-card{
+		width:220px;
+	}
+
+	#chart .apexcharts-legend-series{
+		display: none;
+	}
+
+	
+	
+}
+
+@media (max-width: 445px){
+	#footer-container .container-brand{
+		width:40px;
+		height:30px;
+	}
+
+	#footer-container .social-networks svg{
+		width:30px;
+		height:30px;
+	}
+
+	#footer-container .dropdown a{
+		font-size:.8rem;
+	}
+
+	#footer-container .picture-mobile{
+		width:200px;
+		margin: 0;
+	}
+
+	#footer-container .container-imag{
+		position: relative;
+	}
+	#footer-container .picture-card{
+		top:50px;
+	}
+
+	#footer-container .container-image{
+		width: 200px;
+	}
+
+	@keyframes card-animate{
+	0%{
+		transform: rotateZ(90deg);
+		
+	}
+	
+	100%{
+		transform: rotateZ(60deg);
+		left:-80px;
+	}
+}
+
+}
+
+
+
+
+@media (max-width: 370px){
+	
+	#footer-container .picture-mobile{
+		width: 150px;
+		margin: 0 5%;
+	}
+
+	#footer-container .picture-card{
+		width:150px;
+	}
+
+	#footer-container .link-app-down{
+		width:100px;
+		height: 30px;
+	}
+
+
+
+	#footer-container .picture-card{
+		display: none;
+	}
+
+	
+}
+
+@media (max-width: 330px){
+	
+	#footer-container .picture-mobile{
+		width:90%;
+	}
+
+	#footer-container .container-image{
+		width:100%;
+	}
+
+	
+
+	
+	
+}
+

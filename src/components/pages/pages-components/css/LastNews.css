@@ -1,0 +1,106 @@
+#last-news .picture-arrow img{
+	width:10px;
+}
+
+#last-news .anim-arrow img{
+	animation-name: arrow-anim;
+	animation-duration: .6s;
+	animation-iteration-count: infinite;
+}
+
+#last-news .anim-arrow img:last-child{
+	animation-delay: .2s;
+}
+#last-news .anim-arrow img:nth-child(2){
+	animation-delay: .25s;
+}
+#last-news .anim-arrow img:first-child{
+	animation-delay: .3s;
+}
+
+@keyframes arrow-anim{
+	from{
+		transform: translateX(0px);
+		opacity: .5;
+	}
+	to{
+		transform: translateX(20px);
+		opacity: 0;
+	}
+}
+
+#last-news .block-news-list .item-news{
+	padding: 10px;
+	padding-bottom: 30px;
+	width:30%;
+	height: 280px;
+	min-height: 280px;
+	background-color: rgba(227, 30, 36, .8);
+	overflow: hidden;
+	margin-right:15px;
+	margin-left:15px;
+}
+
+#last-news .block-news-list .item-news:first-child{
+	background-color: rgba(33, 38, 64, .8);
+	margin-right:15px!important;
+	margin-left:0px!important;
+}
+
+#last-news .block-news-list .item-news:last-child{
+	margin-right:0px!important;
+	margin-left:15px!important;
+}
+
+#last-news .block-news-list .item-news img{
+	object-fit: cover;
+	left:0;
+	top:0;
+	z-index: -1;
+	transition: all .5s ease;
+}
+
+#last-news .icon-ract-dis{
+	width:50px;
+	height:50px;
+	right:0;
+	bottom:0;
+}
+
+#last-news .block-news-list .item-news h6{
+	line-height: 1.5;
+}
+#last-news .block-news-list .item-news a:hover ~ img{
+	transform: scale(1.5);
+}
+
+#last-news .sm-red-rect{
+	width:30px;
+	height:30px;
+	right:0;
+	bottom:0;
+	background: rgba(179,0,6,1);
+background: -moz-linear-gradient(45deg, rgba(179,0,6,1) 0%, rgba(255,30,38,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(179,0,6,1)), color-stop(100%, rgba(255,30,38,1)));
+background: -webkit-linear-gradient(45deg, rgba(179,0,6,1) 0%, rgba(255,30,38,1) 100%);
+background: -o-linear-gradient(45deg, rgba(179,0,6,1) 0%, rgba(255,30,38,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(179,0,6,1) 0%, rgba(255,30,38,1) 100%);
+background: linear-gradient(45deg, rgba(179,0,6,1) 0%, rgba(255,30,38,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b30006', endColorstr='#ff1e26', GradientType=1 );
+}
+
+
+@media (max-width: 992px){
+	#last-news .block-news-list .item-news{
+		width:100%;
+		margin: 15px auto;
+	}
+
+	#last-news .block-news-list .item-news:first-child,
+	#last-news .block-news-list .item-news:last-child{
+	margin-right:auto!important;
+	margin-left:auto!important;
+}
+
+}
+

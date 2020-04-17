@@ -1,0 +1,182 @@
+.form-application-loan .item-app-calc{
+	border-radius: 5px;
+    padding: 5px 10px!important;
+    background-color: rgba(238, 238, 238, 1);
+    margin-right:10px;
+    font-size: 1rem;
+}
+
+.form-application-loan .form-control,
+.form-application-loan .item-app-calc{
+	height: calc(1.4em + .55rem + 2px);
+}
+
+.form-application-loan form .form-it{
+	top: 5px;
+    right: 10px;
+    font-size: .9rem;
+}
+
+.form-application-loan form input{
+	border:none;
+	background-color:rgba(238, 238, 238, 1);
+	border-radius: 4px; 
+}
+
+.form-application-loan .dropdown-toggle{
+	border: none;
+   	background-color: transparent!important;
+    padding: 0;
+    box-shadow: none!important;
+}
+
+.form-application-loan .dropdown-menu{
+	transform: translate3d(0px, 27px, 0px)!important;
+}
+
+.form-application-loan .dropdown-menu{
+	padding: 5px 10px!important;
+	 background-color: rgba(238, 238, 238, 1);
+}
+
+.form-application-loan .dropdown-menu ul li{
+	padding: 5px 0px;
+	cursor: pointer;
+}
+
+.form-application-loan .header-form-app{
+	padding: 20px 5px;
+}
+
+
+
+.form-application-loan .main-info-loan .title-tb-inf{
+	color:#9E9E9E;
+}
+
+.form-application-loan .main-info-loan ul li{
+	font-size: .85rem;
+}
+
+.form-application-loan .main-info-loan .table-info{
+	background-color: #eeeeee;
+	padding: 10px;
+    border-radius: 5px;
+}
+
+.form-application-loan .tab-table-payment{
+	height:35px;
+	padding: 5px 10px;
+	cursor:pointer;
+	-webkit-clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+}
+
+.form-application-loan .check-blck{
+	width: 30px;
+    height: 30px;
+    border: 2px solid rgba(33, 38, 64, 1);
+    cursor: pointer;
+}
+
+.form-application-loan .btn-next-step{
+	padding: 7px 10px;
+    height: 38px;
+	-webkit-clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+}
+
+.form-application-loan .btn-client-enter{
+	padding: 5px;
+	width: 100px;
+}
+
+.form-application-loan .btn-next-step[data-active="false"]{
+	background-color: #9E9E9E;
+}
+
+.form-application-loan .btn-next-step[data-active="true"]{
+	background-color: rgba(227, 30, 36, 1);
+}
+
+.form-application-loan .form-individual-info label{
+	padding-top: 5px;
+}
+
+.form-individual-info{
+	background-color: transparent;
+}
+
+.form-application-loan .form-individual-info .btn-next-step{
+	-webkit-clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 90% 0%, 95% 50%, 90% 100%, 0% 100%);
+}
+
+.form-application-loan form input{
+	color:rgba(33, 38, 64, 1);
+}
+
+.form-individual-info .check-blck{
+	width:20px!important;
+	height:20px!important;
+}
+
+.form-application-loan .personal-info-client, 
+.form-application-loan .info-credit-client{
+	background-color: #eeeeee;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+@media (max-width: 992px){
+
+	.form-application-loan .item-form-inf:firs-child{
+		padding-left:0px!important;
+	}
+
+	.form-application-loan h4{
+		font-size:1.2rem;
+	}
+
+	.form-application-loan .main-info-loan .title-tb-inf{
+		padding: 5px 15px;
+	}
+
+	.form-application-loan .title-form,
+	.form-application-loan .tab-table-payment,
+	.form-application-loan .checkbox-form,
+	.form-application-loan .form-group .form-label{
+		font-size: .9rem;
+	}
+
+	.form-application-loan .dropdown-toggle::after{
+		display: inline-block;
+    	margin-left: .255em;
+    	vertical-align: .255em;
+    	content: "";
+    	border-top: none;
+    	border-right: none;
+    	border-bottom: 0;
+    	border-left: none;
+	}
+
+	.form-application-loan .item-form-inf{
+		margin-bottom:10px;
+	}
+
+	.calculator-item-loans .massege-inf{
+		margin-top:15px;
+	}
+
+	.form-application-loan .check-blck{
+		width:25px;
+		height:25px;
+	}
+}
+
+@media (max-width: 350px){
+	.form-application-loan .checkbox-form p{
+		width:95%;
+		padding: 0px 10px;
+	}
+}

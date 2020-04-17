@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Icon/Navigation/Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.866,0 C12.1947,0 15.7321,3.498 15.7321,7.866 C15.7321,9.42 15.3083,10.851 14.4608,12.157 L19.4665,17.136 C20.0789,17.75 20.1369,18.819 19.4532,19.506 C18.8159,20.142 17.8045,20.192 17.1093,19.493 L12.102,14.487 C10.8489,15.3 9.4386,15.706 7.866,15.706 C3.5788,15.706 1.15463195e-13,12.253 1.15463195e-13,7.866 C1.15463195e-13,3.561 3.4728,0 7.866,0 Z M13.7987,13.031 L13.0041,13.825 L17.9039,18.698 C18.0628,18.92 18.3988,18.972 18.6719,18.698 C18.9103,18.46 18.9269,18.151 18.6719,17.93 L13.7987,13.031 Z M7.866,1.112 C4.1532,1.112 1.1124,4.092 1.1124,7.866 C1.1124,11.627 4.1648,14.593 7.866,14.593 C11.564,14.593 14.6197,11.63 14.6197,7.866 C14.6197,4.142 11.6253,1.112 7.866,1.112 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/Navigation" transform="translate(-951.000000, -26.000000)">
+            <g id="Функции" transform="translate(951.000000, 26.000000)">
+                <g id="Icon/Navigation/Search">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Clip-444" fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
